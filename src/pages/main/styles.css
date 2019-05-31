@@ -36,3 +36,28 @@
   background-color: #DB7093;
   color: white;
 }
+.product-list .actions{
+  display: flex;
+  justify-content: space-between;  /*vai colocar um botao para esquerda e outro para a direita */
+  margin-bottom: 20px;
+}
+.product-list .actions button{
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: #DB7093;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.product-list .actions button:hover{
+  opacity: 0.8;
+}
+.product-list .actions button[disabled]:hover{
+  opacity: 0.5;
+}
+.product-list .actions button[disabled]{
+  opacity: 0.5;
+  cursor: default;
+}
